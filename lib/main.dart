@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Lista de tareas',
+      title: 'Lista de tareas integradora',
       home: MyHomePage(),
     );
   }
@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Lista de tareas'),
+        title: Text('tareas'),
       ),
       body: ListView.builder(
         itemCount: tareas.length,
